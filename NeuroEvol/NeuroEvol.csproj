@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dataset.cs" />
+    <Compile Include="Distribucije.cs" />
+    <Compile Include="GA.cs" />
+    <Compile Include="KromosomDouble.cs" />
+    <Compile Include="NeuralNetwork.cs" />
+    <Compile Include="NeuronActivations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
