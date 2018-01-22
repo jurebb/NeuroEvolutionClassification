@@ -94,8 +94,6 @@ namespace NeuroEvol
 
                     for (int i = 0; i < _architecture[j]; i++)
                     {
-                        //_neurons[neuronIndex + i] = NeuronActivations.Type2(param, paramIndex, paramNumPerSingleNeuronT2, _neurons,
-                        //    neuronIndex - _architecture[j - 1]);
                         for (int k = 0; k < paramNumPerSingleNeuronT2; k++)
                         {
                             sw.Write("{0}\t", param.PoljeRjesenja[paramIndex + k].ToString(CultureInfo.InvariantCulture));
